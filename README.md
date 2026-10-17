@@ -1,5 +1,7 @@
 # Weather Cycle
 
+**Version 1.1** · [Source on GitHub](https://github.com/johntr/Foundation-Auto-Day-Night-Weather)
+
 A [Foundation](https://www.polymorph.games/foundation/) mod that automatically cycles the weather through **day → sunset → night → twilight**, with a chance of rain, instead of you picking it by hand. It can also tilt the sun to change shadow length and direction.
 
 ## Install
@@ -20,7 +22,7 @@ Everything is in `config.lua`:
 | `FollowGameSpeed` | `true` | `true`: the cycle speeds up with fast-forward. `false`: it always runs at 1× pace. It stops when paused either way. |
 | `SunPitchOffset` / `SunYawOffset` | `20` / `0` | Tilts the sun in degrees. Pitch raises or lowers it; yaw swings it around the map. |
 | `Verbose` | `true` | Logs each weather change. |
-| `Debug` | `true` | Shows a popup when the cycle starts and logs the lighting probe. Set to `false` once it's working. |
+| `Debug` | `false` | Set to `true` to show a popup when the cycle starts and log the lighting probe. |
 
 Available weathers: `WEATHER_SUNNY`, `WEATHER_DUSK`, `WEATHER_NIGHT`, `WEATHER_RAINY`. The game has no separate sunrise setting, so twilight uses the dusk look.
 
@@ -45,6 +47,18 @@ grep 'Weather Cycle' modding.log
 ```
 
 The game writes to its log with a delay, so give it a minute after loading before checking.
+
+## Changelog
+
+**1.1**
+- Debug popups and the lighting probe are off by default.
+- Longer default cycle (about 20 minutes), with more time for sunset and twilight.
+- Sun tilt (`SunPitchOffset` / `SunYawOffset`), default pitch 20°.
+- `FollowGameSpeed` option.
+- Fixed extra cycle components piling up in saves.
+
+**1.0**
+- First release.
 
 ## Files
 

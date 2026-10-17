@@ -2,5 +2,5 @@
 	"Name": "Weather Cycle",
 	"Author": "jtredlich",
 	"Description": "Automatically cycles the weather through day, dusk, night and dawn, with an optional chance of rain.",
-	"Version": "1.0.0"
+	"Version": "1.1"
 }

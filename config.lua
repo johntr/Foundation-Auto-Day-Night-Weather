@@ -29,5 +29,5 @@ return {
 
 	-- Show in-game popups when the mod loads and when the cycle starts on a map.
 	-- Set to false once you've confirmed it works.
-	Debug = true,
+	Debug = false,
 }
