@@ -1,0 +1,8 @@
+{
+	"TAXATION_FUNCTION": {
+		"WEATHER_CYCLE_HOOK_NAME" : "Weather Cycle (no effect)",
+		"WEATHER_CYCLE_HOOK_DESCRIPTION" : "Used internally by the Weather Cycle mod. Does not tax anything.",
+		"WEATHER_CYCLE_HOOK_CATEGORY" : "Weather Cycle",
+		"WEATHER_CYCLE_HOOK_TAXED" : "Nothing"
+	}
+}
