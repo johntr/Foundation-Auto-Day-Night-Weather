@@ -1,10 +1,12 @@
 # Weather Cycle
 
-**Version 1.1** · [Source on GitHub](https://github.com/johntr/Foundation-Auto-Day-Night-Weather)
+**Version 1.1** · [Download on mod.io](https://mod.io/g/foundation/m/auto-daynight-weather-cycle) · [Source on GitHub](https://github.com/johntr/Foundation-Auto-Day-Night-Weather)
 
 A [Foundation](https://www.polymorph.games/foundation/) mod that automatically cycles the weather through **day → sunset → night → twilight**, with a chance of rain, instead of you picking it by hand. It can also tilt the sun to change shadow length and direction.
 
 ## Install
+
+The easiest way is to subscribe on [mod.io](https://mod.io/g/foundation/m/auto-daynight-weather-cycle). To install it manually:
 
 1. Copy the `Weather Cycle` folder into `Foundation/mods/`.
 2. Enable **Weather Cycle** in the game's Mods menu.
